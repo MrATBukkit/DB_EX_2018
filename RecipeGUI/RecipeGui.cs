@@ -74,7 +74,14 @@ namespace RecipeGUI
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            AddEditForm addForm = new AddEditForm();
+            addForm.ShowDialog();
+        }
 
+        public void addRecipt(Recipe.Recipe recipe)
+        {
+            RecipeList.Items.Add(recipe);
+            allRecipes.Add(recipe);
         }
 
         private void RecipeList_SelectedIndexChanged(object sender, EventArgs e)
