@@ -59,7 +59,7 @@ namespace RecipeGUI
                 newRecipe.addIngredient(item);
             }
             RecipeGui form = (RecipeGui)this.Owner;
-            form.addRecipt(newRecipe);
+            form.addRecipe(newRecipe);
             this.Close();
         }
     }

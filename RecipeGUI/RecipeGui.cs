@@ -78,7 +78,7 @@ namespace RecipeGUI
             addForm.ShowDialog();
         }
 
-        public void addRecipt(Recipe.Recipe recipe)
+        public void addRecipe(Recipe.Recipe recipe)
         {
             RecipeList.Items.Add(recipe);
             allRecipes.Add(recipe);
